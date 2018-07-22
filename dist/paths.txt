@@ -1,0 +1,37 @@
+# In this configuration file you can customize the paths where DocFetcher will
+# look for its settings and index files.
+# 
+# This file follows the conventions of the Java Properties format. In
+# particular, the following rules apply:
+# * Lines starting with '#' are considered comments and will be ignored. Remove
+#   the '#' characters in front of the "key=value" lines below to enable the
+#   respective settings.
+# * Backslashes must be escaped, i.e. whenever you want to write down a '\'
+#   character, insert '\\' instead.
+# * Other characters to be escaped with a backslash include ' and ". Thus, you
+#   have to enter \' and \" instead.
+# * You can use forward slashes instead of backslashes in file paths. Forward
+#   slashes don't need to be escaped.
+# * The expected encoding is ISO-8859-1, aka Latin-1. All non-Latin-1 characters
+#   must be entered as Unicode escapes, e.g. '\u00F6' instead of 'ö'.
+# 
+# You can specify relative paths with ".." (two dots), which means "go up one
+# level in the folder hierarchy". Relative paths are relative to the DocFetcher
+# folder, not to this file. Example: ..\\some\\folder
+# 
+# DocFetcher recognizes the special variable ${user.home}, which points to the
+# current user's home directory. Accordingly, ${user.home}/.docfetcher would be
+# a folder named '.docfetcher' under the home directory.
+# 
+# For more information on the Properties format, see:
+# http://en.wikipedia.org/wiki/.properties
+
+# Where the settings are stored:
+#settings=C:/path/to/settings/folder
+
+# Where the indexes are stored. Note: The DocFetcher daemon currently ignores
+# this setting.
+#indexes=C:/path/to/indexes/folder
+
+# Where the SWT library files will be written to:
+#swt=C:/path/to/swt-libs
